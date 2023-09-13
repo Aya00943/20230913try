@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+.gazou1 {
+  text-align: center;
+}
+.gazou1 ul li {
+  display: inline-block;
+  width: 30%;
+  padding: 5px;
+  margin: 3px;
+}
+
+.gazou2 ul {
+  display: flex;
+  justify-content: space-between;
+}
+.gazou2 ul li {
+  width: 30%;
+  padding: 5px;
+  margin: 3px;
+}
